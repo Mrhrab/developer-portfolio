@@ -11,10 +11,11 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .letter{
     width:50%;
-    padding: left 2px;%;
+    padding-left: 2%;
 }
 .letter img{
     width: 100%;
@@ -38,4 +39,9 @@ section{
 .top-banner{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
